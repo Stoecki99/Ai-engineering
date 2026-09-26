@@ -1,24 +1,24 @@
-# Phase 12: Multimodal AI
+# Phase 12: Multimodale KI
 
 > Models that see, hear, read, and reason across modalities.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Phase 7 Transformers and Phase 4 Computer Vision.
+**Voraussetzungen:** Phase 7 Transformers and Phase 4 Computer Vision.
 
-**First lesson:** [Vision Transformer Patch Tokens](01-vision-transformer-patch-tokens/)
+**Erste Lektion:** [Vision Transformer Patch Tokens](01-vision-transformer-patch-tokens/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/12-multimodal-ai/01-vision-transformer-patch-tokens/code/main.py
 ```
 
-Keep the command, exit code, patch grid and sequence lengths, parameter counts,
-and one sentence explaining why higher resolution creates more visual tokens.
+Dokumentiere den Befehl, den Exit-Code, patch grid and sequence lengths, parameter counts,
+und einem Satz, der erklaert, warum higher resolution creates more visual tokens.
 
-**Next action:** Change one image or patch size, predict the sequence length,
-then continue to [CLIP and Contrastive Pretraining](02-clip-contrastive-pretraining/).
+**Naechster Schritt:** Change one image or patch size, predict the sequence length,
+dann fahre fort mit [CLIP and Contrastive Pretraining](02-clip-contrastive-pretraining/).
 
-Browse the [full Phase 12 lesson list](../../README.md#phase-12) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 12 Lektionsliste](../../README.md#phase-12) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).

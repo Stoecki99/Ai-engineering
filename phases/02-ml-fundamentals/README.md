@@ -1,25 +1,25 @@
-# Phase 2: ML Fundamentals
+# Phase 2: ML-Grundlagen
 
-> Classical machine learning is still the backbone of most production AI.
+> Klassisches Machine Learning ist immer noch das Rueckgrat der meisten produktiven KI.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Phase 1 Math Foundations and NumPy. Check the route with
+**Voraussetzungen:** Phase 1 Math Foundations and NumPy. Pruefe die Route mit
 `python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route ml-foundations`.
 
-**First lesson:** [What Is Machine Learning](01-what-is-machine-learning/)
+**Erste Lektion:** [What Is Machine Learning](01-what-is-machine-learning/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/02-ml-fundamentals/01-what-is-machine-learning/code/ml_intro.py
 ```
 
-Keep the command, exit code, test accuracy, random baseline, and one sentence
-explaining why the learned classifier beats that baseline.
+Dokumentiere den Befehl, den Exit-Code, test accuracy, random baseline, und einem Satz,
+der erklaert, warum the learned classifier beats that baseline.
 
-**Next action:** Change the class separation, predict how accuracy will move,
-run it again, then continue to [Linear Regression from Scratch](02-linear-regression/).
+**Naechster Schritt:** Change the class separation, sage vorher, wie accuracy will move,
+fuehre es erneut aus, dann fahre fort mit [Linear Regression from Scratch](02-linear-regression/).
 
-Browse the [full Phase 2 lesson list](../../README.md#phase-2) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 2 Lektionsliste](../../README.md#phase-2) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).

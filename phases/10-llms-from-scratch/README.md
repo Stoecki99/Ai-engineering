@@ -1,25 +1,25 @@
-# Phase 10: LLMs from Scratch
+# Phase 10: LLMs von Grund auf
 
-> Build, train, and understand large language models.
+> Grosse Sprachmodelle bauen, trainieren und verstehen.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Phase 5 NLP Foundations. Phase 7 Transformers is strongly
+**Voraussetzungen:** Phase 5 NLP Foundations. Phase 7 Transformers is strongly
 recommended before the model-building lessons.
 
-**First lesson:** [Tokenizers](01-tokenizers/)
+**Erste Lektion:** [Tokenizers](01-tokenizers/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/10-llms-from-scratch/01-tokenizers/code/main.py
 ```
 
-Keep the command, exit code, encode/decode round-trip results, learned merge
+Dokumentiere den Befehl, den Exit-Code, encode/decode round-trip results, learned merge
 count, and compression ratios. `tiktoken` is an optional comparison.
 
-**Next action:** Add a word the tiny corpus has not seen, inspect its pieces,
-then continue to [Building a Tokenizer from Scratch](02-building-a-tokenizer/).
+**Naechster Schritt:** Add a word the tiny corpus has not seen, inspect its pieces,
+dann fahre fort mit [Building a Tokenizer from Scratch](02-building-a-tokenizer/).
 
-Browse the [full Phase 10 lesson list](../../README.md#phase-10) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 10 Lektionsliste](../../README.md#phase-10) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).

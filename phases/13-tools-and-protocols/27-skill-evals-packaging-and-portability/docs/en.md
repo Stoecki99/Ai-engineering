@@ -483,7 +483,7 @@ notes. A fixture pass is not a host result.
 From the same directory, run:
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch --skill skill-release-gate --full-depth
+npx skills add Stoecki99/Ai-engineering --skill skill-release-gate --full-depth
 ```
 
 Record the host, host version if visible, scope, installed path, and date.

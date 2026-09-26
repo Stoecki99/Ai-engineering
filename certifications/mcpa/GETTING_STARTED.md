@@ -10,8 +10,8 @@ route order it needs to teach you step by step.
 Clone the repository so the tutor can run every lab and test:
 
 ```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
-cd ai-engineering-from-scratch
+git clone https://github.com/Stoecki99/Ai-engineering.git
+cd Ai-engineering
 ```
 
 Claude Code discovers the repository tutor automatically. Start with:
@@ -24,7 +24,7 @@ For Codex, Cursor, or another local agent that reads `SKILL.md`, install the
 portable course skills:
 
 ```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+npx skills add Stoecki99/Ai-engineering
 ```
 
 Then invoke `/mcpa-certification`. For ChatGPT or any harness that does not

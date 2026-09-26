@@ -2,24 +2,24 @@
 
 > Agents that learn by doing. The foundation of RLHF.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Phase 1 probability and distributions, plus Phase 2 Lesson
+**Voraussetzungen:** Phase 1 probability and distributions, plus Phase 2 Lesson
 01 for the ML taxonomy.
 
-**First lesson:** [MDPs, States, Actions and Rewards](01-mdps-states-actions-rewards/)
+**Erste Lektion:** [MDPs, States, Actions and Rewards](01-mdps-states-actions-rewards/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/09-reinforcement-learning/01-mdps-states-actions-rewards/code/main.py
 ```
 
-Keep the command, exit code, random and greedy returns, value grids, and one
+Dokumentiere den Befehl, den Exit-Code, random and greedy returns, value grids, and one
 sentence connecting policy quality to expected return.
 
-**Next action:** Change the discount factor, predict the value shift, then
+**Naechster Schritt:** Change the discount factor, predict the value shift, then
 continue to [Dynamic Programming](02-dynamic-programming/).
 
-Browse the [full Phase 9 lesson list](../../README.md#phase-9) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 9 Lektionsliste](../../README.md#phase-9) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).

@@ -1,24 +1,24 @@
-# Phase 15: Autonomous Systems
+# Phase 15: Autonome Systeme
 
 > Agents that run without human intervention, safely.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Phase 14 Lesson 01, The Agent Loop.
+**Voraussetzungen:** Phase 14 Lesson 01, The Agent Loop.
 
-**First lesson:** [Long-Horizon Agents](01-long-horizon-agents/)
+**Erste Lektion:** [Long-Horizon Agents](01-long-horizon-agents/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/15-autonomous-systems/01-long-horizon-agents/code/main.py
 ```
 
-Keep the command, exit code, horizon projection, compounded reliability table,
+Dokumentiere den Befehl, den Exit-Code, horizon projection, compounded reliability table,
 and one operational control you would require before a long run.
 
-**Next action:** Recalculate one trajectory with a different per-step
-reliability, then continue to [Self-Taught Reasoning](02-star-family-reasoning/).
+**Naechster Schritt:** Recalculate one trajectory with a different per-step
+reliability, dann fahre fort mit [Self-Taught Reasoning](02-star-family-reasoning/).
 
-Browse the [full Phase 15 lesson list](../../README.md#phase-15) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 15 Lektionsliste](../../README.md#phase-15) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).

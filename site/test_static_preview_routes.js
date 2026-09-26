@@ -114,7 +114,7 @@ test('plain static preview rewrites every route-producing site surface', () => {
   assert.equal(links.every(link => /^(?:lesson|certification)\.html\?/.test(link.value())), true);
 
   const directFileLinks = runtimeRouteLinks('learning-paths.html').map(testLink);
-  loadRouteRuntime('file:///tmp/ai-engineering-from-scratch/site/learning-paths.html', directFileLinks);
+  loadRouteRuntime('file:///tmp/Ai-engineering/site/learning-paths.html', directFileLinks);
   assert.equal(directFileLinks.every(link => link.value().startsWith('lesson.html?')), true);
   assert.match(fs.readFileSync(path.join(__dirname, 'learning-paths.html'), 'utf8'), />Study specialist lessons<\/a>/);
 });

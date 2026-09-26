@@ -591,7 +591,7 @@ test('build-time SEO manifests cover every readable lesson and expose canonical 
     assert.ok(entry.excerpt.split(/\s+/).length <= 220);
     assert.match(entry.canonicalUrl, /^https:\/\/aiengineeringfromscratch\.com\/lesson\?path=/);
     assert.doesNotMatch(entry.canonicalUrl, /lesson\.html|[&?](?:track|learningPath)=/);
-    assert.match(entry.sourceUrl, /^https:\/\/github\.com\/rohitg00\/ai-engineering-from-scratch\//);
+    assert.match(entry.sourceUrl, /^https:\/\/github\.com\/Stoecki99\/Ai-engineering\//);
     assert.ok(['course', 'certification'].includes(entry.context.kind));
     assert.deepEqual(entry.learningPathIds, (expectedLearningPathIds.get(lessonPath) || []).sort());
     assert.deepEqual(entry.fromTrackIds, (expectedFromTrackIds.get(lessonPath) || []).sort());
@@ -856,7 +856,7 @@ test('remote content source rejects dot-segment repositories and revisions', () 
   });
   assert.equal(
     invalid.rawRepoUrl('phases/00-setup-and-tooling/01-dev-environment/docs/en.md'),
-    'https://raw.githubusercontent.com/example-owner/ai-engineering-from-scratch/preview/ref/phases/00-setup-and-tooling/01-dev-environment/docs/en.md'
+    'https://raw.githubusercontent.com/example-owner/Ai-engineering/preview/ref/phases/00-setup-and-tooling/01-dev-environment/docs/en.md'
   );
 
   const invalidFallback = loadContentSource({
@@ -910,7 +910,7 @@ test('learning path manifests preserve route order and use canonical lesson titl
       { path: 'phases/13-tools-and-protocols/23-capstone-tool-ecosystem' },
     ],
   }));
-  const github = 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/';
+  const github = 'https://github.com/Stoecki99/Ai-engineering/tree/main/';
   const phases = [{
     id: 13,
     name: 'Tools and Protocols',
@@ -956,7 +956,7 @@ test('learning path manifests reject duplicate and unresolved prerequisite check
       name: 'Skills and Agent SDKs',
       type: 'Build',
       lang: 'Python',
-      url: 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/' + lessonPath + '/',
+      url: 'https://github.com/Stoecki99/Ai-engineering/tree/main/' + lessonPath + '/',
     }],
   }];
   const manifestFile = path.join(root, 'learning-paths', 'agent-skills.json');
@@ -991,7 +991,7 @@ test('learning path manifests reject invalid prerequisite path graphs', t => {
     'phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure',
     'phases/13-tools-and-protocols/25-skill-invocation-and-routing',
   ];
-  const github = 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/';
+  const github = 'https://github.com/Stoecki99/Ai-engineering/tree/main/';
   const phases = [{
     id: 13,
     name: 'Tools and Protocols',
@@ -1483,11 +1483,11 @@ test('homepage preserves live GitHub CTAs and the motion-aware learner marquee',
   assert.doesNotMatch(mastheadCta[0], /Start (?:MCP Engineering|Agent Skills)/i);
   assert.match(
     mastheadCta[0],
-    /<a class="masthead-btn" href="https:\/\/github\.com\/rohitg00\/ai-engineering-from-scratch"[^>]*aria-label="Star ai-engineering-from-scratch on GitHub"[^>]*>[\s\S]*?<span>Star on GitHub<\/span>[\s\S]*?<span class="masthead-btn-count" data-gh-stars="rohitg00\/ai-engineering-from-scratch" data-loading="true">/
+    /<a class="masthead-btn" href="https:\/\/github\.com\/Stoecki99\/Ai-engineering"[^>]*aria-label="Star Ai-engineering on GitHub"[^>]*>[\s\S]*?<span>Star on GitHub<\/span>[\s\S]*?<span class="masthead-btn-count" data-gh-stars="Stoecki99\/Ai-engineering" data-loading="true">/
   );
   assert.match(
     mastheadCta[0],
-    /<a class="masthead-btn" href="https:\/\/github\.com\/rohitg00"[^>]*aria-label="Follow Rohit Ghumare on GitHub"[^>]*>[\s\S]*?<span>Follow @rohitg00<\/span>/
+    /<a class="masthead-btn" href="https:\/\/github\.com\/Stoecki99"[^>]*aria-label="Follow  on GitHub"[^>]*>[\s\S]*?<span>Follow @Stoecki99<\/span>/
   );
   assert.match(homepage, /<script src="header\.js\?v=[^"]+" defer><\/script>/);
   assert.match(headerSource, /\[data-gh-stars="' \+ REPO \+ '"\]/);
@@ -1712,7 +1712,7 @@ test('exact Agent Skills search ranks the focused path before individual lessons
     lessons: [{
       name: 'Agent Skills: Portable Contract and Runtime Boundary',
       summary: 'Learn agent skills.',
-      url: 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/13-tools-and-protocols/22-skills-and-agent-sdks/',
+      url: 'https://github.com/Stoecki99/Ai-engineering/tree/main/phases/13-tools-and-protocols/22-skills-and-agent-sdks/',
     }],
   }];
 

@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  var REPO = 'rohitg00/ai-engineering-from-scratch';
+  var REPO = 'Stoecki99/Ai-engineering';
   var CACHE_KEY = 'gh:stars:' + REPO;
   var CACHE_TTL_MS = 10 * 60 * 1000; // 10 minutes
   var COMPACT_HEADER_QUERY = '(max-width: 1400px)';
@@ -101,7 +101,7 @@
     }
     var links = document.querySelectorAll('.header-github');
     for (var j = 0; j < links.length; j++) {
-      links[j].setAttribute('aria-label', 'View ai-engineering-from-scratch on GitHub, ' + format(n) + ' stars');
+      links[j].setAttribute('aria-label', 'View Ai-engineering on GitHub, ' + format(n) + ' stars');
     }
   }
 

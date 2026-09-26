@@ -1,25 +1,25 @@
-# Phase 6: Speech & Audio
+# Phase 6: Sprache & Audio
 
 > The other half of human communication. Hear, understand, speak.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Phase 1 vectors, matrices, and probability. The first demo
+**Voraussetzungen:** Phase 1 vectors, matrices, and probability. The first demo
 uses only the Python standard library.
 
-**First lesson:** [Audio Fundamentals](01-audio-fundamentals/)
+**Erste Lektion:** [Audio Fundamentals](01-audio-fundamentals/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/06-speech-and-audio/01-audio-fundamentals/code/main.py
 ```
 
-Keep the command, exit code, detected frequency peaks, alias frequency, and an
+Dokumentiere den Befehl, den Exit-Code, detected frequency peaks, alias frequency, and an
 explanation of why a low-pass filter must run before downsampling.
 
-**Next action:** Change the source tone and predict its aliased frequency,
-then continue to [Spectrograms and Mel Features](02-spectrograms-mel-features/).
+**Naechster Schritt:** Change the source tone and predict its aliased frequency,
+dann fahre fort mit [Spectrograms and Mel Features](02-spectrograms-mel-features/).
 
-Browse the [full Phase 6 lesson list](../../README.md#phase-6) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 6 Lektionsliste](../../README.md#phase-6) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).

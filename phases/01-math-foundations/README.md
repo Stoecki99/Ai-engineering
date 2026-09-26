@@ -1,26 +1,25 @@
-# Phase 1: Math Foundations
+# Phase 1: Mathematische Grundlagen
 
-> The intuition behind every AI algorithm, through code, not textbooks.
+> Die Intuition hinter jedem KI-Algorithmus, durch Code, nicht Lehrbuecher.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Complete Phase 0, or confirm that Python 3.11+ and Git work
-from the repository root.
+**Voraussetzungen:** Phase abschliessen: 0, oder bestaetige, dass Python 3.11+ and Git vom Repository-Root aus funktionieren.
 
-**First lesson:** [Linear Algebra Intuition](01-linear-algebra-intuition/)
+**Erste Lektion:** [Linear Algebra Intuition](01-linear-algebra-intuition/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 ```
 
-Keep the command, exit code, normalized-vector output, projection residual,
-and one sentence explaining why a matrix-vector product is a neural-network
+Dokumentiere den Befehl, den Exit-Code, normalized-vector output, projection residual,
+und einem Satz, der erklaert, warum a matrix-vector product is a neural-network
 layer.
 
-**Next action:** Change one input vector, predict the result, run it again,
-then continue to [Vectors, Matrices and Operations](02-vectors-matrices-operations/).
+**Naechster Schritt:** Aendere einen Eingabe vector, sage das Ergebnis vorher, fuehre es erneut aus,
+dann fahre fort mit [Vectors, Matrices and Operations](02-vectors-matrices-operations/).
 
-Browse the [full Phase 1 lesson list](../../README.md#phase-1) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 1 Lektionsliste](../../README.md#phase-1) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).

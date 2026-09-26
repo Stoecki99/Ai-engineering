@@ -1,32 +1,32 @@
-# Phase 13: Tools & Protocols
+# Phase 13: Tools & Protokolle
 
-> The interfaces between AI and the real world.
+> Die Schnittstellen zwischen KI und der echten Welt.
 
 This phase moves from function calls and tool schemas into interoperable
 protocols, Agent Skills, security, and production governance. Numeric order is
 useful for browsing. The focused routes below are the reliable learning order.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Phase 11 LLM completion APIs. For MCP or Agent Skills, use
+**Voraussetzungen:** Phase 11 LLM completion APIs. For MCP or Agent Skills, use
 the focused route below instead of assuming numeric lesson order.
 
 **First full-phase lesson:** [The Tool Interface](01-the-tool-interface/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/13-tools-and-protocols/01-the-tool-interface/code/main.py
 ```
 
-Keep the command, exit code, describe-decide-execute-observe trace, rejected
+Dokumentiere den Befehl, den Exit-Code, describe-decide-execute-observe trace, rejected
 input evidence, and one sentence explaining the turn limit.
 
-**Next action:** Continue to [Function Calling Deep Dive](02-function-calling-deep-dive/),
+**Naechster Schritt:** Continue to [Function Calling Deep Dive](02-function-calling-deep-dive/),
 or choose the Model Context Protocol (MCP) or Agent Skills route below.
 
-Browse the [full Phase 13 lesson list](../../README.md#phase-13) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 13 Lektionsliste](../../README.md#phase-13) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).
 
 ## Model Context Protocol (MCP) path
 
@@ -58,7 +58,7 @@ Start with the invocation supported by your host:
 
 ### Your first ten minutes
 
-From the repository root, run Lesson 06's stateless transcript:
+Fuehre vom Repository-Root aus Lesson 06's stateless transcript:
 
 ```bash
 python3 phases/13-tools-and-protocols/06-mcp-fundamentals/code/main.py

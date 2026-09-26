@@ -1,28 +1,28 @@
-# Phase 8: Generative AI
+# Phase 8: Generative KI
 
-> Create images, video, audio, 3D, and more.
+> Bilder, Video, Audio, 3D und mehr erstellen.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** Phase 2 ML Fundamentals, Phase 3 Deep Learning Core, and
+**Voraussetzungen:** Phase 2 ML Fundamentals, Phase 3 Deep Learning Core, and
 Phase 7 Lesson 14, Build a Transformer from Scratch.
 
-**First lesson:** [Generative Model Taxonomy and History](01-generative-models-taxonomy-history/)
+**Erste Lektion:** [Generative Model Taxonomy and History](01-generative-models-taxonomy-history/)
 
-Run this command from the repository root:
+Fuehre diesen Befehl vom Repository-Root aus:
 
 ```bash
 python3 phases/08-generative-ai/01-generative-models-taxonomy-history/code/main.py
 ```
 
-Keep the command, exit code, density estimates, generated samples, and one
+Dokumentiere den Befehl, den Exit-Code, density estimates, generated samples, and one
 sentence explaining what an implicit generator cannot answer about `p(x)`.
 
-**Next action:** Change the random seed, compare the density estimates, then
+**Naechster Schritt:** Change the random seed, compare the density estimates, then
 continue to [Autoencoders and VAE](02-autoencoders-vae/).
 
-Browse the [full Phase 8 lesson list](../../README.md#phase-8) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 8 Lektionsliste](../../README.md#phase-8) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).
 
 15 lessons, about 15 hours total. Each lesson ships a detailed document, a
 runnable Python demo, a diagram, and a named skill for your agent.

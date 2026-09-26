@@ -1,25 +1,24 @@
 # Phase 0: Setup & Tooling
 
-> Get your environment ready for everything that follows.
+> Bereite deine Umgebung auf alles vor, was folgt.
 
-## Start this phase on GitHub
+## Diese Phase auf GitHub starten
 
-**Prerequisites:** None. You need Git and Python 3.11 or newer to begin. Other
-tools are installed only when your route needs them.
+**Voraussetzungen:** Keine. Du brauchst Git and Python 3.11 or newer zum Starten. Andere
+Tools werden nur installiert, wenn deine Route sie braucht.
 
-**First lesson:** [Dev Environment](01-dev-environment/)
+**Erste Lektion:** [Dev Environment](01-dev-environment/)
 
-From the repository root, run the route-aware preflight:
+Fuehre vom Repository-Root aus the route-aware preflight:
 
 ```bash
 python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
 ```
 
-Keep the command, repository-root working directory, exit code, required check
-results, and the printed `Next:` command. Optional misses are not failures.
+Dokumentiere den Befehl, das Arbeitsverzeichnis, den Exit-Code, erforderlichen Pruefergebnisse, und die ausgegebene `Next:` command. Optionale Fehlschlaege sind keine Fehler.
 
-**Next action:** Fix every required failure, rerun until the command exits 0,
-then continue to [Git and Collaboration](02-git-and-collaboration/).
+**Naechster Schritt:** Behebe jeden erforderlichen Fehler, fuehre erneut aus bis der Befehl mit 0 endet,
+dann fahre fort mit [Git and Collaboration](02-git-and-collaboration/).
 
-Browse the [full Phase 0 lesson list](../../README.md#phase-0) or the
-[cross-phase roadmap](../../ROADMAP.md).
+Durchsuche die [vollstaendige Phase 0 Lektionsliste](../../README.md#phase-0) oder die
+[phasenuebergreifende Roadmap](../../ROADMAP.md).
